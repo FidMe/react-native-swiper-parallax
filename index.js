@@ -5,8 +5,9 @@
  */
 
 import React, { Component } from 'react';
-import SliderRoot from './Slider';
+import SliderRoot from './components/Slider';
 import SliderProvider from './context/SliderProvider';
+import {withSliderContext} from './context/SliderContext';
 
 import { SliderProps } from './type';
 
@@ -20,4 +21,5 @@ class Slider extends Component<SliderProps> {
     }
 }
 
+export {withSliderContext}
 export default Slider;

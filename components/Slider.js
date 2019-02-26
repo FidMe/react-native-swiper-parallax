@@ -7,8 +7,8 @@
 import React, { Component, Fragment } from 'react';
 import { Animated, Dimensions, PanResponder } from 'react-native';
 import styled, { css } from '@emotion/native';
-import { withSliderContext } from './context/SliderContext';
-import { SlideType, SliderProps } from './type';
+import { withSliderContext } from '../context/SliderContext';
+import { SlideType, SliderProps } from '../type';
 
 type OwnProps = SliderProps & {
     setCurrentIndex: Function,

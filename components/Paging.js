@@ -6,7 +6,7 @@
 
 import React, { Component } from 'react';
 import styled from '@emotion/native';
-import SliderContext from './context/SliderContext';
+import SliderContext from '../context/SliderContext';
 
 type SwiperPagingProps = {
     slideCount: number,
