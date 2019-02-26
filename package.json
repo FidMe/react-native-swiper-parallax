@@ -1,0 +1,30 @@
+{
+  "name": "react-native-swiper-parallax",
+  "version": "0.1.0",
+  "description": "swiper with a parallax effect for react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FidMe/react-native-swiper-parallax.git"
+  },
+  "keywords": [
+    "swiper",
+    "slider",
+    "parallax",
+    "delay"
+  ],
+  "author": "Alexandre Hassler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FidMe/react-native-swiper-parallax/issues"
+  },
+  "homepage": "https://github.com/FidMe/react-native-swiper-parallax#readme",
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/native": "^10.0.7",
+    "flow": "^0.2.3"
+  }
+}
