@@ -2,6 +2,8 @@
 
 _react-native-swiper-parallax_ is a swiper component for React Native featuring paging and an optional parallax effect. Compatible with Android & iOS.
 
+![](swiper.gif)
+
 ## Getting started
 
 ```bash
